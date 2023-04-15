@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.AllMolesContainer {
+  display: grid;
+  column-gap: 5px;
+  row-gap: 5px;
+  grid-template-columns: auto auto auto;  
+  box-sizing: border-box;
+}
+
+.MoleContainer {
+  border: 1px dashed black;
+}
+
+.MoleContainer img {  
+  object-fit: fill;
+  max-width: 100%;
+}
